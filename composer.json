@@ -1,0 +1,20 @@
+{
+  "name": "dbeurive/rsa",
+  "description": "This package contains a very basic service that performs RSA encoding and decoding. Please note that this package is just an example for an article.",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Denis BEURIVE",
+      "email": "dbeurive.github@gmail.com"
+    }
+  ],
+  "keywords": ["rsa", "example"],
+  "autoload": {
+    "psr-4": {
+      "dbeurive\\Rsa\\": "src"
+    }
+  },
+  "archive": {
+    "exclude": ["/tests", "/README.md"]
+  }
+}
